@@ -1,16 +1,21 @@
 ## Hi there 👋
+#Hola mi nombre es Emely Maricela Mártir hernández 💕
+## Sobre mí✨💖
+Soy estudiante y me interesa aprender más sobre el desarrollo del software y las nuevas tecnologías. Actualmente estoy fortaleciendo mis conocimientos en programación y desarrollo de páginas web.
 
-<!--
-**emelymartir48-rgb/emelymartir48-rgb** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Lo que estoy aprendiendo💗👩🏻‍💻
+- HTML
+- CSS
+- JavaScript
+- DOM
+- Bootstrap
+- Git
+- GitHub
 
-Here are some ideas to get you started:
+## Proyecto actual💖💻
+Actualmente estoy aprendiendo a publicar y a crear páginas web utilizando GitHub mientras practico lo aprendido en mis clases.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Mi meta💓
+Mi meta segir aprendiendo sobre el desarrollo web para crear sitios atractivos, funcionales a diferentes dispositivos.Tmbién quiero adquirir más experiencia para enfrentar nuevos retos tecnológicos en el futuro.😊😊
+
+Sigo fortaleciendo mis conocimientos mediante proyectos académicos y prácticas de desarrollo web.✨💻
