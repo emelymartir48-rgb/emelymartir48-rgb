@@ -1,0 +1,128 @@
+/*Diseño general del cuerpo de la página*/
+
+body{
+    margin: 0;
+    font-family: Arial,sans-serif;
+    background: #dee5ed;
+    color: #1f1f1f;
+}
+
+/*Contenedor principal central*/
+.contenedor{
+margin: 0;
+font-family: Arial, sans-serif;
+background: rgb(200, 214, 240);
+color: black;
+}
+
+/*Tarjeta de Login y panel de bienvenida*/
+.login-card{
+    background: #dee5ed;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: o 40px 18px rgb(169, 169, 247);
+}
+h1, h2{
+    text-align: center;
+        margin-top: 0;
+}
+
+/*texto descriptivo*/
+.descripcion{
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+
+}
+
+/*Grupode cada campo*/
+.grupo{
+    margin-bottom: 18px;
+
+}
+
+/*Etiquetas*/
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+
+}
+
+/*Campos de entrada*/
+.imput[tupe="text"],
+.imput[tupe="password"]{
+width: 100;
+padding: 11px;
+border: 1px;
+border-radius: 8px;
+font-size: 15px;
+}
+
+/*Selector al seleccionar un campo*/
+.imput.focus{
+    outline: none;
+    border-color: #1f1f1f;
+}
+
+/* Opciones del formulario*/
+.opciones{
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+/*Cheskbox */
+.opciones-imput{
+    margin-right: 6px;
+}
+
+/* Boones*/
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: rgb(12, 12, 12);
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+/*Efecto hover del botón*/
+button.hover{
+    background: cornsilk;
+}
+
+/* error*/
+.error{
+    display: block;
+    color: darkred;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/*Mensaje general*/
+.mensaje{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+/*Campo correcto */
+.correcto{
+    border-color: #1f1f1f;
+}
+
+/*Campo incorrecto+/
+.incorrecto{
+    border-color: red;
+}
+
+/*Ocultar elementos */
+.ocultor{
+    display: none;
+}
+
+/**/
+*{
+    box-sizing: border-box;
+}

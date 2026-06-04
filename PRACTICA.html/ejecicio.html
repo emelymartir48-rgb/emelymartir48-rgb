@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" href="estilologin.css">
+
+</head>
+<body>
+    <main class="contenedor">
+        <section class="login-crad" id="logincard">
+            <h1> Inicio de sesión </h1>
+            <p class="descripción">Insgrese sus credenciales para acceder al sistema</p>
+            <!--fomulario de acceso-->
+            <form id="formLogin">
+                <div class="grupo">
+                    <label form="text" id=>Usuario</label>
+                    <input type="text" id="Ususario" placeholder="Ingrese su usuario">
+                    <small id="erroUsuario" class="error"></small>
+                </div>
+                <div class="grupo">
+                    <label form="clave" id=>contraseña:</label>
+                    <input type="password" id="clave" placeholder="Ingrese su contraseña">
+                    <small id="erroClave" class="error" ></small>
+                </div>
+                <div class="opciones">
+                    <label> 
+                        <input type="checkbox" id="mostrarClave">
+                        Mostrar contraceña
+                    </label>
+                </div>
+                <button type="submit"> Limpiar</button>
+                <p id="mensajeGeneral" class="Mensaje"></p>
+            </form>
+         </section>
+         <!-- Panel que se mostrara si el usuario ingres correctamente-->
+          <section class=" panel control" id="panelBienvenida">
+            <h2> Acceso concedido</h2>
+            <p> Bienvenido/a, <strong id="nombreUsuario"></strong>
+            </p>
+            <button id="btnCotraseña">Cerrar sección</button>
+          </section>
+        </main>
+    <script src="scriptlogin.js">
+
+    </script>
+</body>
+</html>

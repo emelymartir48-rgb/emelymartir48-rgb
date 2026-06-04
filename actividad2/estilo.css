@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(120deg, #9cd6fd, #a7bbdf);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Caja principal */
+form{
+    background: white;
+    padding: 35px;
+    border-radius: 20px;
+    width: 350px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Título */
+h1{
+    text-align: center;
+    color: #13171d;
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+h2{
+    text-align: center;
+    font-size: 15px;
+    color: #555;
+}
+
+/* Separación */
+.grupo{
+    margin-bottom: 18px;
+}
+
+/* Etiquetas */
+label{
+    font-weight: bold;
+    color: #333;
+}
+
+/* Inputs */
+input{
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* Efecto al seleccionar */
+input:focus{
+    border-color: #2575fc;
+    box-shadow: 0px 0px 8px rgba(37,117,252,0.5);
+}
+
+/* Botón */
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #94b6f1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover botón */
+button:hover{
+    background: #6a11cb;
+}
+
+/* Mensajes de error */
+.error{
+    color: red;
+    font-size: 12px;
+}

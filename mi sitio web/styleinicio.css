@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to right, #d065df, #6ac0e2);
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* TITULO */
+
+h1{
+    background: rgb(107, 68, 105);
+    color: rgb(230, 168, 224);
+    text-align: center;
+    padding: 25px;
+}
+
+/* IMAGEN */
+
+img{
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    box-shadow: 0px 8px 20px rgba(194, 80, 80, 0.25);
+    transition: transform 0.4s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+/* PARRAFOS */
+
+p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 20px;
+    background: rgb(239, 205, 243);
+    border-radius: 15px;
+}
+
+/* SUBTITULO */

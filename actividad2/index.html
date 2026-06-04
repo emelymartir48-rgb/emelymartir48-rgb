@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+<h1>REGISTRO 📒</h1>
+
+<form id="formlogin">
+
+    <div class="grupo">
+        <label for="usuario">Usuario</label><br>
+        <input type="text" id="usuario" placeholder="Ingrese su nombre">
+        <small id="errorUsuario" class="error"></small>
+    </div>
+
+    <div class="grupo">
+        <label for="correo">Correo Electrónico</label><br>
+        <input type="email" id="correo" placeholder="Ingrese su correo">
+        <small id="errorCorreo" class="error"></small>
+    </div>
+
+    <div class="grupo">
+        <label for="asunto">Asunto</label><br>
+        <input type="text" id="asunto" placeholder="Ingrese el asunto">
+        <small id="errorAsunto" class="error"></small>
+    </div>
+
+    <div class="grupo">
+        <label for="mensaje">Mensaje</label><br>
+        <input type="text" id="mensaje" placeholder="Ingrese su mensaje">
+        <small id="errorMensaje" class="error"></small>
+    </div>
+
+    <h2>Presione el botón para registrarse</h2>
+
+    <button type="button" onclick="guardar()">
+        Registrar
+    </button>
+
+</form>
+
+<div id="resultado"></div>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
